@@ -729,9 +729,6 @@ section {
 }
 
 @media (max-width: 500px){
-	.content .box{
-		flex-direction: column;
-	}
 	.sousheader{
 		display: none;
 	}
@@ -776,6 +773,7 @@ section {
 		height: 330px;
 		padding: 20px;
 		padding-top: 30px;
+		flex-direction: column;
 	}
 	.testimonials .content .box img{
 		width: 50px;
