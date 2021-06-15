@@ -729,6 +729,9 @@ section {
 }
 
 @media (max-width: 500px){
+	.content .box{
+		flex-direction: column;
+	}
 	.sousheader{
 		display: none;
 	}
