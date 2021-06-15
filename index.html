@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Rentigus</title>
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Drinks">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Ihssane LACHHEB">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/png" href="assets/images/rentigus/favicon.png"/>
+
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.js" integrity="sha512-ggJ7yQCnXifbDXFFfyNhegaNXkkPMP+0cxMDobX6pABvU4zrqD+NMXxrGoAK9iANboRjpR4ajwWHCCfJXJFpJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+</head>
+<body>
+	<header>
+		<!-- <a href="#banner" class="logo"> Drinks <span>.</span></a> -->
+		<a href="#banner" class="logo"> <img src="assets/images/rentigus/logo.png" /></a>
+		<div class="menuToggle" onclick=" toggleMenu(); "></div>
+		<ul class="navigation">
+			<li><a href="#banner" onclick=" toggleMenu(); ">Accueil</a></li>
+			<li><a href="#about" onclick=" toggleMenu(); ">À propos</a></li>
+			<li><a href="#menu" onclick=" toggleMenu(); ">Logement</a></li>
+			<li><a href="#testimonials" onclick=" toggleMenu(); ">Témoignages</a></li>
+			<li><a href="#contact" onclick=" toggleMenu(); ">Contact</a></li>
+		</ul>
+	</header>
+	<section class="banner" id="banner">
+		<div class="content">
+			<h2> <span class="typing"></span> </h2>
+			<p>
+				Notre objectif est de réunir tout le confort, la qualité et le design pour satisfaire toutes vos exigences.
+			</p>
+			<a href="#menu" class="btn" data-aos="zoom-in" data-aos-duration="2000">Logement</a>
+		</div>
+	</section>
+
+	<section>
+		<div class="about" id="about">
+			<div class="sousheader">
+				<div class="dashedd"></div>
+				<p> RENTIGUS est là pour vous </p>
+				<div class="dashedd"></div>
+			</div>
+			<div class="row">
+				<div class="col50" data-aos="fade-right" data-aos-duration="2000">
+					<h2 class="titleChange" data-aos="zoom-in" data-aos-duration="2000"> <span>À</span> propos</h2>
+					<p> 
+						RENTIGUS est la solution idéale pour vous permettre de trouver votre futur logement. 
+					</p>
+					<p>
+						Spécialisée dans la gestion locative de tous biens immobiliers, la page RENTIGUS vous propose un service sur mesure et adapté à la réalisation de vos projets immobiliers et accompagne bailleurs et locataires dans leurs opérations de locations. 
+					</p>
+					<p>
+						RENTIGUS est propriétaire, fini l’âge des intermédiaires ! 
+					</p>
+				</div>
+				<div class="col50" data-aos="fade-left" data-aos-duration="2000">
+					<div class="imgBox">
+						<img src="assets/images/rentigus/about.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="menu" id="menu">
+		<div class="title" data-aos="zoom-in" data-aos-duration="2000">
+			<h2 class="titleChange"> Nos <span>B</span>iens </h2>
+			<p> Nous vous proposons les plus beaux appartements. </p>
+		</div>
+		<div class="content">
+			<div class="box">
+				<div class="imgBox">
+					<img src="assets/images/menu/1.jpg" alt="" />
+				</div>
+				<div class="text">
+					<h3> a Description here </h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBox">
+					<img src="assets/images/menu/2.jpg" alt="" />
+				</div>
+				<div class="text">
+					<h3> a Description here</h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBox">
+					<img src="assets/images/menu/3.jpg" alt="" />
+				</div>
+				<div class="text">
+					<h3> a Description here </h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBox">
+					<img src="assets/images/menu/6.jpg" alt="" />
+				</div>
+				<div class="text">
+					<h3> a Description here </h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBox">
+					<img src="assets/images/menu/4.jpg" alt="" />
+				</div>
+				<div class="text">
+					<h3> a Description here </h3>
+				</div>
+			</div>
+			<div class="box">
+				<div class="imgBox">
+					<img src="assets/images/menu/5.jpg" alt="" />
+				</div>
+				<div class="text">
+					<h3> a Description here </h3>
+				</div>
+			</div>
+		</div>
+		<div class="title">
+			<a href="#contact" class="btn">Contact</a>
+		</div>
+	</section>
+
+	<section id="testimonials" class="testimonials">
+		<div class="title" data-aos="zoom-in" data-aos-duration="2000">
+			<h2 class="titleChange"> Qu'est-ce que nos <span>C</span>lients disent de nous </h2>
+			<p> Voici ce que certains de nos clients disent de notre travail. </p>
+		</div>
+		<div class="content">
+			<div class="box" data-aos="fade-right" data-aos-duration="2000">
+				<img src="assets/images/testimonials/feed.jpg" alt="" />
+				<div class="feedback">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan vel mauris sed viverra. Integer finibus et mi vitae maximus. Cras vestibulum bibendum quam, at tempus mi egestas ut. </p>
+					<h3> Robert Garcia </h3>
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star-half-o bg"></i>
+					</div>
+				</div>
+			</div>
+			<div class="box" data-aos="fade-left" data-aos-duration="2000">
+				<img src="assets/images/testimonials/back.jpg" alt="" />
+				<div class="feedback">
+					<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus accumsan vel mauris sed viverra. Integer finibus et mi vitae maximus. Cras vestibulum bibendum quam, at tempus mi egestas ut. </p>
+					<h3> Sofia Bouchard </h3>
+					<div class="stars">
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+						<i class="fa fa-star"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="title" data-aos="zoom-in" data-aos-duration="2000">
+			<h2 class="titleChange"> <span>C</span>ontact </h2>
+			<p> N'hésitez pas à nous contacter si vous avez des questions. </p>
+		</div>
+		<div class="changeMe">
+			<div class="form">
+				<h3> Contactez-nous </h3>
+				<div class="inputBox" data-aos="fade-right" data-aos-duration="1000">
+					<input type="text" placeholder="Nom et Prénom" />
+				</div>
+				<div class="inputBox" data-aos="fade-left" data-aos-duration="1500">
+					<input type="Email" placeholder="Votre adresse Mail" />
+				</div>
+				<div class="inputBox" data-aos="fade-right" data-aos-duration="2000">
+					<textarea placeholder="Message" ></textarea> 
+				</div>
+				<div class="inputBox" data-aos="fade-left" data-aos-duration="2500">
+					<input type="submit" value="Submit" />
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="last">
+		<section class="noTop">
+			<div class="footer">
+				<div class="description">
+					<a href="#banner" class="logo"> <img src="assets/images/rentigus/logo.png" /></a>
+					<p> Notre objectif est de réunir tout le confort, la qualité et le design pour satisfaire toutes vos exigences.</p>
+				</div>
+				<div class="icons">
+					<i class="fa fa-facebook"></i>
+					<i class="fa fa-linkedin"></i>
+					<i class="fa fa-instagram"></i>
+				</div>
+				<div class="findme">
+					<h3> OÙ NOUS TROUVER ? </h3>
+					<div class="together">
+						<img src="assets/images/footer/phone.png" alt="" />
+						<p> +212-600000000 </p>
+					</div>
+					<div class="together">
+						<img src="assets/images/footer/email.png" alt="" />
+						<p> rentigus123@gmail.com </p>
+					</div>
+					<div class="together">
+						<img src="assets/images/footer/localisation.png" alt="" />
+						<p> 18, rentigus address </p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="sousfooter">
+			<p> Copyright © 2021 | <span> Ihssane <i>LACHHEB</i>_Imane <i>ESSOUYSY</i> </span> </p>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+		window.addEventListener('scroll', function(){
+			//La méthode querySelector() de l'interface Document retourne le premier Element dans le document correspondant au sélecteur
+			const header = document.querySelector('header');
+			header.classList.toggle("sticky", window.scrollY >0);
+		});
+
+
+		function toggleMenu(){
+			const menuToggle = document.querySelector('.menuToggle');
+			const navigation = document.querySelector('.navigation');
+			menuToggle.classList.toggle('active');
+			navigation.classList.toggle('active');
+		}
+
+	</script>
+
+	<script>
+	  AOS.init();
+	</script>
+
+	<script src="assets/js/jscode.js"></script>
+
+</body>
+</html>
