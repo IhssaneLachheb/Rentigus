@@ -358,6 +358,7 @@ section {
 
 .contact{
 	background: url("../images/rentigus/contact.jpg");
+	background-size: cover;
 	background-size: 100% 100%;
 }
 
@@ -520,7 +521,17 @@ section {
 
 /************************* media query section ******************************/
 
-@media (max-width: 1024px){
+@media (max-width: 1024px){ 
+	header {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+	.banner{
+		background: url("../images/rentigus/heromedia.jpg");
+		background-size: cover;
+		background-size: 100% 100%;
+	}
+
 	header .navigation li::after{
 		height: 0;
 	}
@@ -552,7 +563,7 @@ section {
 		margin-bottom: 10px;
 		margin-top: 0;
     }
-    .menu, .expert, .testimonials, .contact{
+    .menu, .testimonials, .contact{
     	padding-top: 100px;
     }
     .form{
@@ -606,9 +617,9 @@ section {
 	}
 	header .navigation.active{
 		width: 100%;
-		height: calc(100% - 68px);
+		height: calc(100% - 110px);
 		position: fixed;
-		top: 68px;
+		top: 110px;
 		left: 0;
 		display: flex;
 		justify-content: center;
@@ -718,6 +729,9 @@ section {
 }
 
 @media (max-width: 500px){
+	.sousheader{
+		display: none;
+	}
 	.changeMe{
 		display: flex;
 		flex-direction: row;
@@ -756,7 +770,7 @@ section {
 		margin-top: 50px;
 	}
 	.testimonials .content .box{
-		height: 300px;
+		height: 330px;
 		padding: 20px;
 		padding-top: 30px;
 	}
@@ -823,10 +837,6 @@ section {
 	}
 	.last{
 		padding-top: 80px;
-	}
-
-	.expert .content .box{
-		width: 300px;
 	}
 
 }
