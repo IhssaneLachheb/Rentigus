@@ -210,11 +210,11 @@
 					<h3> OÙ NOUS TROUVER ? </h3>
 					<div class="together">
 						<img src="assets/images/footer/phone.png" alt="" />
-						<p> +212-666856588 </p>
+						<p> +212-600000000 </p>
 					</div>
 					<div class="together">
 						<img src="assets/images/footer/email.png" alt="" />
-						<p> rentigus@gmail.com </p>
+						<p> rentigus123@gmail.com </p>
 					</div>
 					<div class="together">
 						<img src="assets/images/footer/localisation.png" alt="" />
@@ -246,7 +246,12 @@
 	</script>
 
 	<script>
-	  AOS.init();
+		  AOS.init({
+		  disable: function() {
+		    var maxWidth = 1000;
+		    return window.innerWidth < maxWidth;
+		  }
+		});
 	</script>
 
 	<script src="assets/js/jscode.js"></script>
