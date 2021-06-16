@@ -427,7 +427,7 @@ section {
 .footer{
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 60px;
+	padding-bottom: 40px;
 }
 
 .findme{
