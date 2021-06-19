@@ -701,7 +701,7 @@ section {
 	header .navigation{
 		display: none;
 		padding: 70px;
-		padding-top: 100px;
+		padding-top: 140px;
 	}
 	header .navigation.active{
 		width: 100%;
