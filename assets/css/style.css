@@ -141,6 +141,10 @@ header.sticky .navigation li a{
 	font-size: 2.1em;
 }
 
+.hideme{
+	display: none;
+}
+
 /************************* about section ******************************/
 
 section {
@@ -613,6 +617,11 @@ section {
 	header .navigation li::after{
 		height: 0;
 	}
+	.menuheader{
+		padding-left: 100px;
+		padding-right: 100px;
+		margin-top: 20px;
+	}
 	.banner .content{
 		max-width: 650px;
 	}
@@ -708,8 +717,8 @@ section {
 	}
 	header .navigation li{
 		margin-left: 0;
-		margin-bottom: 10px;
-		padding: 15px;
+		margin-bottom: 7px;
+		padding: 8px;
 		background: rgba(0,0,0,1);
 		width: 100%;
 		text-align: center;
@@ -725,6 +734,11 @@ section {
 	}
 	header .navigation li:hover a, header.sticky .navigation li:hover a {
 		color: #FF1493;
+	}
+	.menuheader{
+		padding-left: 100px;
+		padding-right: 100px;
+		margin-top: 90px;
 	}
 	.menuToggle{
 		position: relative;
@@ -926,5 +940,12 @@ section {
 	.last{
 		padding-top: 80px;
 	}
-
+	.menuheader{
+		visibility: hidden;
+		height: 10px;
+		padding: 0;
+	}
+	.hideme{
+		display: block;
+	}
 }
