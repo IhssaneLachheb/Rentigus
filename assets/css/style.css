@@ -74,27 +74,18 @@ header{
 	justify-content: space-between;
 	align-items: center;
 	transition: 0.5s;
+	padding-top: 15px;
 }
-
+.headerlocation{
+	background-color: #024e9a;
+	box-shadow: 0 5px 20px rgb(0,0,0,0.05);
+}
 header.sticky{
 	background-color: #024e9a;
 	padding: 5px 100px;
 	box-shadow: 0 5px 20px rgb(0,0,0,0.05);
 }
 
-header .logo{
-	color: #fff;
-	font-weight: 700;
-	/*font-size: 2em;*/
-	text-decoration: none;
-}
-
-header.sticky .logo{
-	color: #111;
-}
-header .logo span{
-	color: #FF1493;
-}
 
 header .navigation{
 	position: relative;
@@ -518,6 +509,90 @@ section {
 	font-size: 12px;
 }
 
+/*************************** Location ****************************************/
+
+.menuheader{
+	width: 100%;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding-left: 300px;
+	padding-right: 300px;
+}
+.menuheader .left, .menuheader .right{
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 70px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	background: rgba(2,78,154,0.1);
+}
+
+.left:after {
+  content: '';
+  line-height: 0;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  border-top: 70px solid rgba(2,78,154,0.1);
+  border-bottom: 50px solid transparent;
+  border-left: 0px solid transparent;
+  border-right: 50px solid transparent;
+  position: absolute;
+  top: 0;
+  right: -50px;
+}
+
+.right {
+  margin-left: 60px;
+  width: 100px;
+}
+
+.right:before {
+  content: '';
+  line-height: 0;
+  font-size: 0;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 70px solid rgba(2,78,154,0.1);
+  border-left: 50px solid transparent;
+  border-right: 0px solid rgba(2,78,154,0.1);
+  position: absolute;
+  top: -50px;
+  left: -50px;
+}
+
+.left .navigation li, .right .navigation li{
+	list-style: none;
+	margin-left: 30px;
+}
+
+.left .navigation li::after, .right .navigation li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #fff500;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+
+.left .navigation li:hover::after, .right .navigation li:hover::after{
+	width: 25%;
+}
+
+.left .navigation li a, .right .navigation li a{
+	text-decoration: none;
+	color: rgb(2,78,154);
+	font-weight: 300;
+}
+
+
 /************************* media query section ******************************/
 
 @media (max-width: 1024px){ 
@@ -769,7 +844,7 @@ section {
 		margin-top: 50px;
 	}
 	.testimonials .content .box{
-		height: 370px;
+		height: 330px;
 		padding: 20px;
 		padding-top: 30px;
 		flex-direction: column;
