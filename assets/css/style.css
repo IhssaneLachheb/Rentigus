@@ -730,8 +730,8 @@ section {
 	}
 	header .navigation li a, header.sticky .navigation li a {
 		color: #fff;
-		font-size: 1.1em;
-		text-transform: uppercase;
+		font-size: 1em;
+		text-transform: capitalize;
 	}
 	header .navigation li:hover a, header.sticky .navigation li:hover a {
 		color: #FF1493;
