@@ -943,7 +943,7 @@ section {
 	}
 	.menuheader{
 		visibility: hidden;
-		height: 10px;
+		height: 0px;
 		padding: 0;
 	}
 	.hideme{
