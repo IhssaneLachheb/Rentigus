@@ -211,6 +211,10 @@ section {
 	margin-right: 20px;
 }
 
+#aboutImg2{
+	display: none;
+}
+
 /************************* menu section ******************************/
 
 .menu .content{
@@ -803,6 +807,12 @@ section {
 }
 
 @media (max-width: 500px){
+	#aboutImg2{
+		display: block;
+	}
+	#aboutImg1{
+		display: none;
+	}
 	.sousheader{
 		display: none;
 	}
