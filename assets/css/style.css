@@ -853,6 +853,9 @@ section {
 	.menu .content{
 		margin-top: 50px;
 	}
+	.menu .content .box .imgBox{
+		height: 280px;
+	}
 	.testimonials .content .box{
 		height: 370px;
 		padding: 20px;
