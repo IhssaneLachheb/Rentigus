@@ -21,7 +21,7 @@ p{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: linear-gradient(rgba(2,78,154,0.3), rgba(2,78,154,0.3)), url("../images/rentigus/hero.jpg");
+	background: linear-gradient(rgba(2,78,154,0.3), rgba(2,78,154,0.3)), url("../images/rentigus/hero.png");
 	background-size: 100% 100%;
 }
 
